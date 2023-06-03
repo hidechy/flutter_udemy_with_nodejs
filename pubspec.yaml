@@ -1,0 +1,38 @@
+name: test_nodejs_jobhunt
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+
+  cupertino_icons: ^1.0.2
+
+  flutter:
+    sdk: flutter
+
+  flutter_screenutil: ^5.8.4
+  get: ^4.6.5
+  google_fonts: ^4.0.4
+  image_cropper: ^4.0.1
+  image_picker: ^0.8.7+5
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/json/
