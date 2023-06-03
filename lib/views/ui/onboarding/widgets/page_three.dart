@@ -28,7 +28,7 @@ class PageThree extends StatelessWidget {
               text: 'Welcome To JobHub',
               style: appstyle(
                 30,
-                Color(kLight.value),
+                Color(kLightBlue.value),
                 FontWeight.w600,
               ),
             ),
@@ -38,7 +38,11 @@ class PageThree extends StatelessWidget {
               child: Text(
                 'We help you find your dream job to your skillset, location and preference to build your career',
                 textAlign: TextAlign.center,
-                style: appstyle(14, Color(kLight.value), FontWeight.normal),
+                style: appstyle(
+                  14,
+                  Color(kLightBlue.value),
+                  FontWeight.normal,
+                ),
               ),
             ),
             const HeightSpacer(size: 20),
@@ -56,7 +60,7 @@ class PageThree extends StatelessWidget {
                   text: 'Login',
                   width: width * 0.4,
                   height: height * 0.06,
-                  color: Color(kLight.value),
+                  color: Color(kLightBlue.value),
                 ),
                 GestureDetector(
                   onTap: () {
