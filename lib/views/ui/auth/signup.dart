@@ -63,12 +63,21 @@ class _RegistrationPageState extends State<RegistrationPage> {
               children: [
                 const HeightSpacer(size: 50),
                 ReusableText(
-                    text: 'Hello, Welcome!',
-                    style: appstyle(30, Color(kDark.value), FontWeight.w600)),
+                  text: 'Hello, Welcome!',
+                  style: appstyle(
+                    30,
+                    Color(kDark.value),
+                    FontWeight.w600,
+                  ),
+                ),
                 ReusableText(
-                    text: 'Fill the details to signup for an account',
-                    style:
-                        appstyle(16, Color(kDarkGrey.value), FontWeight.w600)),
+                  text: 'Fill the details to signup for an account',
+                  style: appstyle(
+                    16,
+                    Color(kDarkGrey.value),
+                    FontWeight.w600,
+                  ),
+                ),
                 const HeightSpacer(size: 50),
                 CustomTextField(
                   controller: name,
